@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('$lib/fonts/BebasNeue-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-display: swap;
+}
+@theme {
+    --color-red: #E7484C;
+    --color-green: #E3DB4D;
+    --color-beige: #EBECE7;
+    /*--color-blue: #2B75B7;*/
+    --color-brown: #262A2D;
+    --font-bebas: 'Bebas Neue';
+
+}
