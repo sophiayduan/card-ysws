@@ -6,6 +6,13 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'IBM Plex Mono';
+    src: url('$lib/fonts/IBMPlexMono-Light.ttf') format('truetype');
+    font-style: normal;
+    font-display: swap;
+}
 @theme {
     --color-red: #E7484C;
     --color-green: #E3DB4D;
@@ -13,6 +20,13 @@
     /*--color-blue: #2B75B7;*/
     --color-brown: #262A2D;
     --color-gray:#ABA4A4;
+    --color-dark-gray: #5E5858;
+    --color-white:#FCF7F7;
     --font-bebas: 'Bebas Neue';
+    --font-mono: 'IBM Plex Mono';
 
+}
+
+html {
+    @apply bg-beige
 }
