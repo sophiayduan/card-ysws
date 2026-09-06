@@ -13,6 +13,14 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'Lato';
+    src: url('$lib/fonts/Lato-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-display: swap;
+}
+
 @theme {
     --color-red: #E7484C;
     --color-green: #E3DB4D;
@@ -24,9 +32,10 @@
     --color-white:#FCF7F7;
     --font-bebas: 'Bebas Neue';
     --font-mono: 'IBM Plex Mono';
+    --font-lato: 'Lato';
 
 }
 
 html {
-    @apply bg-beige
+    @apply bg-beige font-lato
 }

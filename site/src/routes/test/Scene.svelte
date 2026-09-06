@@ -4,7 +4,7 @@
   import { useLoader } from '@threlte/core'
   import { GLTF, OrbitControls } from '@threlte/extras'
 
-  const gltf = useLoader(GLTFLoader).load('src/lib/assets/card-example.gltf')
+  const gltf = useLoader(GLTFLoader).load('src/lib/assets/card-example.glb')
   // import { interactivity } from '@threlte/extras'
   // import { Spring } from 'svelte/motion'
 

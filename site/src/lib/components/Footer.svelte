@@ -13,7 +13,7 @@
 
         <h2 class="font-bebas text-9xl leading-20 mt-10  text-beige whitespace-nowrap">HACK CARD</h2>
     </div>
-    <div class="grow">
+    <div class="">
         <a href="/" class="bg-green rounded-xs text-red font-bebas text-2xl px-2 pt-1 flex w-fit items-center gap-2 font-bold">
             WE'RE OPEN SOURCE
             <svg class="-translate-y-0.5" width="auto" height="18px" fill="none" viewBox="0 0 19 20"  xmlns="http://www.w3.org/2000/svg">
@@ -26,7 +26,7 @@
             </svg>
 
         </a>
-        <p class="w-full pt-2 mt-2 border-t border-gray leading-snug text-gray text-sm">
+        <p class="w-full max-w-100 pt-2 mt-2 border-t border-gray leading-snug text-gray text-sm">
             Hack Card is a printed circuit board design competition for all skill levels. Made by teens, for teens.
         </p>
     </div>
