@@ -10,8 +10,10 @@
             <a href="/" class="text-gray block">Fulfillment Bounty</a>
             <a href="/" class="text-gray block">Privacy Policy</a>
         </div>
-
-        <h2 class="font-bebas text-9xl leading-20 mt-10  text-beige whitespace-nowrap">HACK CARD</h2>
+        <div class="flex items-start text-beige ">
+            <h1 class="text-9xl xl:text-[13vw] font-bebas leading-20 xl:leading-40 font-semibold mt-14 whitespace-nowrap">HACK CARD</h1>
+            <span class="text-4xl rotate-180 font-bebas mt-10">&copy;</span>
+        </div>
     </div>
     <div class="">
         <a href="/" class="bg-green rounded-xs text-red font-bebas text-2xl px-2 pt-1 flex w-fit items-center gap-2 font-bold">
